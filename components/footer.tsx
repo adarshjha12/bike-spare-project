@@ -73,7 +73,7 @@ export default function Footer() {
                 <span className="text-sm text-foreground/60">ईमेल: info@maakalika.com</span>
               </li>
               <li>
-                <span className="text-sm text-foreground/60">फोन: +91-XXXX-XXXX</span>
+                <span className="text-sm text-foreground/60">फोन: +91739794177</span>
               </li>
               <li>
                 <Link href="/contact" className="text-sm text-foreground/60 hover:text-primary transition-colors">
@@ -88,7 +88,7 @@ export default function Footer() {
         <div className="border-t border-white/5 py-8">
           <div className="flex flex-col md:flex-row items-center justify-between">
             <p className="text-sm text-foreground/50 flex items-center gap-1">
-              द्वारा बनाया गया <Heart size={14} className="fill-primary text-primary" /> माँ कालिका
+              developed by- <Heart size={14} className="fill-primary text-primary" /> Adarsh jha
             </p>
             <p className="text-sm text-foreground/50">© 2026 माँ कालिका स्पेयर पार्ट्स। सर्वाधिकार सुरक्षित।</p>
           </div>
