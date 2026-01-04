@@ -6,7 +6,7 @@ export default function HeroSection() {
       {/* Video Background */}
       <div className="absolute inset-0">
         <video autoPlay muted loop className="w-full h-full object-cover" poster="/motorcycle-parts.jpg">
-          <source src="https://videos.pexels.com/video-files/1409899/free-video-1409899.mp4" type="video/mp4" />
+          <source src="https://res.cloudinary.com/adarsh-ka-cloudinary/video/upload/v1767534501/12999024_1920_1080_120fps_k5x917.mp4" type="video/mp4" />
         </video>
         {/* Dark Overlay */}
         <div className="absolute inset-0 bg-black/60" />

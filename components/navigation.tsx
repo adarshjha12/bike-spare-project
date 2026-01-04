@@ -19,8 +19,9 @@ export default function Navigation() {
     <>
       {/* Desktop Navigation */}
       <nav className="hidden md:flex fixed top-0 left-0 right-0 z-50 items-center justify-between px-8 py-4 bg-background/80 backdrop-blur-md border-b border-border">
-        <Link href="/" className="text-2xl font-bold neon-orange-glow">
-          MAA KALIKA
+        <Link href="/" className="text-2xl flex items-center  font-bold neon-orange-glow">
+        <img className="w-8 h-8 mx-2 rounded-sm" src="https://m.media-amazon.com/images/I/71ndDeYu1sL._AC_UF894,1000_QL80_.jpg" alt="" />
+          Maa Kalika Auto Spares
         </Link>
         <div className="flex gap-8">
           {navLinks.map((link) => (
@@ -37,8 +38,9 @@ export default function Navigation() {
 
       {/* Mobile Menu Button */}
       <div className="md:hidden fixed top-0 left-0 right-0 z-50 flex items-center justify-between px-4 py-4 bg-background/80 backdrop-blur-md border-b border-border">
-        <Link href="/" className="text-xl font-bold neon-orange-glow">
-          MAA KALIKA
+        <Link href="/" className="text-2xl flex items-center gap-3 font-bold neon-orange-glow">
+        <img className="w-8 h-8 mx-2 rounded-sm" src="https://m.media-amazon.com/images/I/71ndDeYu1sL._AC_UF894,1000_QL80_.jpg" alt="" />
+          Maa Kalika Auto Spares
         </Link>
         <button onClick={() => setIsOpen(!isOpen)} className="p-2 hover:bg-card rounded-lg transition-colors">
           {isOpen ? <X size={24} /> : <Menu size={24} />}

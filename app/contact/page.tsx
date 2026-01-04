@@ -52,7 +52,7 @@ export default function ContactPage() {
                 <Phone size={24} className="text-primary" />
               </div>
               <h3 className="text-lg font-bold mb-2">फोन</h3>
-              <p className="text-foreground/60">+91-XXXX-XXXX</p>
+              <p className="text-foreground/60">+917739794177</p>
               <p className="text-foreground/60">सोमवार से शुक्रवार, 9 AM - 6 PM</p>
             </div>
 
@@ -70,8 +70,8 @@ export default function ContactPage() {
                 <MapPin size={24} className="text-primary" />
               </div>
               <h3 className="text-lg font-bold mb-2">पता</h3>
-              <p className="text-foreground/60">माँ कालिका स्पेयर पार्ट्स</p>
-              <p className="text-foreground/60">मुंबई, महाराष्ट्र</p>
+              <p className="text-foreground/60">माँ कालिका स्पेयर पार्ट्स</p> 
+              <p className="text-foreground/60">रांटी चौक, मधुबनी, 847211  ( बिहार ) </p>
               <p className="text-foreground/60">भारत</p>
             </div>
           </div>

@@ -11,10 +11,7 @@ export default function Footer() {
           {/* Brand */}
           <div>
             <div className="flex items-center gap-2 mb-4">
-              <div className="w-8 h-8 bg-primary rounded-sm flex items-center justify-center">
-                <span className="text-primary-foreground font-bold">⚙️</span>
-              </div>
-              <span className="text-lg font-bold">माँ कालिका</span>
+              <span className="text-lg  flex items-center font-bold"><img className="w-8 h-8 mx-2 rounded-sm" src="https://m.media-amazon.com/images/I/71ndDeYu1sL._AC_UF894,1000_QL80_.jpg" alt="" /> Maa Kalika Auto Spares</span>
             </div>
             <p className="text-sm text-foreground/50">प्रदर्शन के लिए इंजीनियर प्रीमियम मोटरसाइकिल स्पेयर पार्ट्स।</p>
           </div>
