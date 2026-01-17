@@ -20,11 +20,11 @@ export default function HeroSection() {
         </div>
 
         <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold mb-6 text-balance leading-tight">
-          हर पार्ट में परफॉर्मेंस
+          Performance in every part
         </h1>
 
         <p className="text-lg sm:text-xl text-foreground/80 mb-12 max-w-2xl mx-auto text-balance">
-          माँ कालिका - प्रीमियम मोटरसाइकिल स्पेयर पार्ट्स के लिए आपका विश्वस्त स्रोत। गुणवत्ता, विश्वसनीयता और परफॉर्मेंस।
+         Maa kalika auto spares | one stop solution for bike spares
         </p>
 
         {/* CTA Buttons */}
